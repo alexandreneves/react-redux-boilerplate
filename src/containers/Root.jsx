@@ -13,6 +13,7 @@ export default class Root extends Component {
             <Provider store={store}>
                 <Router history={browserHistory}>
                     {routes}
+                    <Redirect path="*" to="/" />
                 </Router>
             </Provider>
         );
