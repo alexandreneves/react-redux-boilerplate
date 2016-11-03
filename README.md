@@ -37,7 +37,7 @@ Este package/router permite sincronizar componentes da vossa webapp com o URL do
 ```
 
 O exemplo acima é um excerto da webapp em questão e teria o seguinte resultado:
-+ 1 - url **/** renderiza o componente App.jsx e contém duas *child rules* que passam determinados componentes como filhos para dentro do App.jsx
++ 1 - url **/** renderiza o componente **App.jsx** e contém duas child rules que passam determinados componentes como filhos (como **props**) para dentro do **App.jsx**
 + 2 - ou seja, a IndexRoute da regra principal/pai (**/**) vai receber o componente (filho) **List.jsx**
 + 3 - **/g/:id** renderiza o componente **ItemDetail.jsx**, também enviado como filho para dentro do **App.jsx**
 + 4 - se nenhuma regra for *matched* o user é redirecionado para **/**
@@ -52,8 +52,8 @@ Algumas considerações:
 
 O exercício apresentado no workshop era 100% síncrono, isto é, todas as actions dispached obtinham uma resposta síncrona, imediata. Por defeito este tipo de actions (synchronous) são as únicas que o **redux** suporta. Para dar suporte a asynchronous actions o **redux** requer ambos os packages mencionados neste tópico (acima). Por outras palavras, instalar estes packages vai permitir que façam requests à vossa API e lidem com as respostas.
 
-+ redux-thunk: é um [middleware](https://en.wikipedia.org/wiki/Middleware) aplicado na criação da vossa Store que torna possível ao **redux** lidar com async actions
-+ isophormic-fetch: facilita todo o processo de fazer pedidos (async) e lidar com as respostas
++ **redux-thunk**: é um [middleware](https://en.wikipedia.org/wiki/Middleware) aplicado na criação da vossa Store que torna possível ao **redux** lidar com async actions
++ **isophormic-fetch**: facilita todo o processo de fazer pedidos (async) e lidar com as respostas
 
 ### Boilerplating [create-react-app](https://github.com/facebookincubator/create-react-app)
 
