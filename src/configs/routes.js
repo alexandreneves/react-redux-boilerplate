@@ -7,7 +7,7 @@ import List from '../containers/List';
 import ItemDetail from '../containers/ItemDetail';
 
 export default (
-    <Route path="react-redux-boilerplate" component={App}>
+    <Route path="/" component={App}>
         <IndexRoute component={List} />,
         <Route path="/g/:id" component={ItemDetail} />
     </Route>

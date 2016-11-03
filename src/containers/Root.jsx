@@ -13,7 +13,7 @@ export default class Root extends Component {
             <Provider store={store}>
                 <Router history={browserHistory}>
                     {routes}
-                    <Redirect path="*" to="/react-redux-boilerplate" />
+                    <Redirect path="*" to="/" />
                 </Router>
             </Provider>
         );
