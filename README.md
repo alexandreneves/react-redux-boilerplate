@@ -52,7 +52,7 @@ Algumas considerações:
 
 O exercício apresentado no workshop era 100% síncrono, isto é, todas as actions dispached obtinham uma resposta síncrona, imediata. Por defeito este tipo de actions (synchronous) são as únicas que o **redux** suporta. Para dar suporte a asynchronous actions o **redux** requer ambos os packages mencionados neste tópico (acima). Por outras palavras, instalar estes packages vai permitir que façam requests à vossa API e lidem com as respostas.
 
-+ **redux-thunk**: é um [middleware](https://en.wikipedia.org/wiki/Middleware) aplicado na criação da vossa Store que torna possível ao **redux** lidar com async actions
++ **redux-thunk**: é um [middleware](https://en.wikipedia.org/wiki/Middleware) aplicado na criação da vossa store que torna possível ao **redux** lidar com async actions
 + **isophormic-fetch**: facilita todo o processo de fazer pedidos (async) e lidar com as respostas
 
 ### Boilerplating [create-react-app](https://github.com/facebookincubator/create-react-app)
