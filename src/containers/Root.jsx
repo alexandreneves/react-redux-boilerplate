@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Provider} from 'react-redux';
-import {Router, Redirect, browserHistory} from 'react-router';
+import {Router, browserHistory} from 'react-router';
 
 import configStore from '../configs/store';
 import routes from '../configs/routes';
@@ -13,7 +13,6 @@ export default class Root extends Component {
             <Provider store={store}>
                 <Router history={browserHistory}>
                     {routes}
-                    <Redirect path="*" to="/" />
                 </Router>
             </Provider>
         );

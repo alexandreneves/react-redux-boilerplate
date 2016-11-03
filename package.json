@@ -1,7 +1,7 @@
 {
   "name": "react-redux-boilerplate",
   "version": "0.1.0",
-  "homepage": "https://alexandreneves.github.io/react-redux-boilerplate/",
+  "homepage": "https://alexandreneves.github.io",
   "devDependencies": {
     "react-scripts": "0.7.0"
   },
