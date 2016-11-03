@@ -9,15 +9,11 @@ Simple exercice using Giphy API to provide as a post-workshop example.
 
 ## Uses
 
-+ React
-  + library to built user interfaces
-+ Redux
-  + flux inspired
-  + state container
-+ React Scripts
-  + automated build process
++ react: user interface components
++ redux: flux & state container
++ react-scripts: build process
 
-## Install & Start 
+## Install & hack
 
 ```
 git clone https://github.com/alexandreneves/react-redux-boilerplate.git
