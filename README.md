@@ -76,13 +76,13 @@ Este package insere uma série de scripts no **package.json** para correrem os p
   }
 ```
 
-+ start: inicia o servidor de desenvolvimento, com auto reload, ESLint, ...
++ start: inicia o servidor de desenvolvimento, com auto reload, **ESLint**, ...
 + build: build para deployment em produção, otimizado, minified, ...
 + test: correr testes
-+ eject: (irreversível) copia todos as configurações (Webpack, Babel, ...) para o vosso projecto para quem quiser tomar controlo do processo
++ eject: (irreversível) copia todos as configurações (**Webpack**, **Babel**, ...) para o vosso projecto para quem quiser tomar controlo do processo
 
 **Nota**:
 + esta abordagem de não recorrer a task managers tais como **Gulp** ou **Grunt** mas sim a **npm scripts** tem sido uma tendência nos últimos anos
-+ uma das limitações atuais que poderá afectar os que tiverem uma webapp com uma componente CSS mais complexa é a falta de suporte para pre-processors (SASS, LESS); uma solução seria recorrerem ao **gulp** e **gulp-sass** para lidar com essa tarefa temporariamente até que seja dado suporte
++ uma das limitações atuais que poderá afectar os que tiverem uma webapp com uma componente **CSS** mais complexa é a falta de suporte para pre-processors (**SASS**, **LESS**); uma solução seria recorrerem ao **gulp** e **gulp-sass** para lidar com essa tarefa temporariamente até que seja dado suporte
 
 ### Made with ♥
