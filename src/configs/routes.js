@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, IndexRoute, Redirect} from 'react-router';
+import {Route, IndexRoute} from 'react-router';
 
 // COMPONENTS
 import App from '../containers/App';
@@ -10,6 +10,5 @@ export default (
     <Route path="/" component={App}>
         <IndexRoute component={List} />,
         <Route path="/g/:id" component={ItemDetail} />
-        <Redirect path="*" to="/" />
     </Route>
 );
